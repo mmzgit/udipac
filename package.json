@@ -1,0 +1,32 @@
+{
+  "name": "udipac",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmzgit/udipac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmzgit/udipac/issues"
+  },
+  "homepage": "https://github.com/mmzgit/udipac#readme",
+  "dependencies": {
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-livereload": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "imagemin-pngquant": "^6.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}

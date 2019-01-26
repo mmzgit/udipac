@@ -1,0 +1,20 @@
+//colors
+$primary-color: #206FB5;
+
+a {
+  color: $primary-color;
+}
+
+/* base: layout */
+.colored-region {
+  background-color: $primary-color;
+}
+
+
+/* components: buttons */
+a.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background-color: $primary-color;
+}

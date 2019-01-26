@@ -1,0 +1,13 @@
+a {
+  color: #206FB5; }
+
+/* base: layout */
+.colored-region {
+  background-color: #206FB5; }
+
+/* components: buttons */
+a.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background-color: #206FB5; }
